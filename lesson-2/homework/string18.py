@@ -1,0 +1,5 @@
+s = input("Matn kiriting: ")
+start = input("Boshlanishi nima bo‘lishi kerak? ")
+end = input("Tugashi nima bo‘lishi kerak? ")
+print("Boshlanadi:", s.startswith(start))
+print("Tugaydi:", s.endswith(end))

@@ -1,0 +1,3 @@
+a=input()
+b=input()
+print("Yes" if a and b else "NO")
