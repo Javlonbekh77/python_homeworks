@@ -1,0 +1,5 @@
+lst = list(map(int, input().split()))
+element = int(input())
+index = int(input())
+lst.insert(index, element)
+print(lst)

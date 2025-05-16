@@ -1,0 +1,6 @@
+t = tuple(input().split())
+e = input()
+lst = list(t)
+lst.remove(e)
+t = tuple(lst)
+print(t)
